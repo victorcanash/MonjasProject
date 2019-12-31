@@ -6,7 +6,7 @@ namespace MonjasProject.Scenes
     {
         private void Start()
         {
-            Invoke("LoadScene", 2f);
+            Invoke("LoadScene", 2f); 
         }
 
         private void LoadScene()
