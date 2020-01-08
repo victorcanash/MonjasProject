@@ -1,7 +1,7 @@
 ﻿using MonjasProject.Scenes;
 using UnityEngine;
 
-namespace MonjasProject.Menu
+namespace MonjasProject.UI
 {
     public class MainMenuController : MonoBehaviour
     {
