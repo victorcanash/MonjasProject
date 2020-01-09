@@ -4,7 +4,7 @@ namespace MonjasProject.UI
 {
     public class HUD : MonoBehaviour
     {
-        public VariableJoystick MoveJoystick = null;
-        public VariableJoystick AintJoystick = null;
+        public GameJoystick MoveJoystick = null;
+        public GameJoystick AintJoystick = null;
     }
 }

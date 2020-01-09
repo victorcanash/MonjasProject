@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using MonjasProject.UI;
+using UnityEngine;
 
 namespace MonjasProject.Player
 {
@@ -8,10 +9,16 @@ namespace MonjasProject.Player
         [SerializeField]
         private CharacterController m_characterController = null;
 
-        private VariableJoystick m_moveJoystick = null;
+        private GameJoystick m_moveJoystick = null;
+
+        //[SerializeField]
+        private float m_speed = 0;
 
         [SerializeField]
-        private float m_speed = 10;
+        private float m_maxVelocity = 10;
+
+        [SerializeField]
+        private float acceleration = 0.5f;
 
         public bool LookAheadEnabled { get; set; }
 
